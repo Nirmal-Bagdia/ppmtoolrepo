@@ -1,8 +1,7 @@
-package com.example.demo.service;
+package in.codeblog.ppmapi.service;
 
 import java.util.HashMap;
 import java.util.Map;
-
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;

@@ -1,13 +1,12 @@
-package com.example.demo.exception;
+package in.codeblog.ppmapi.exception;
 
 public class ProjectIdExceptionResponse {
 
-	private String projectIdentifier;
+    private String projectIdentifier;
 
-	public ProjectIdExceptionResponse(String projectIdentifier) {
-		super();
-		this.projectIdentifier = projectIdentifier;
-	}
+    ProjectIdExceptionResponse(String projectIdentifier) {
+        this.projectIdentifier = projectIdentifier;
+    }
 
 	public String getProjectIdentifier() {
 		return projectIdentifier;
@@ -16,6 +15,6 @@ public class ProjectIdExceptionResponse {
 	public void setProjectIdentifier(String projectIdentifier) {
 		this.projectIdentifier = projectIdentifier;
 	}
-	
-	
+
+
 }

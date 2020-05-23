@@ -1,9 +1,6 @@
-package com.example.demo.domain;
-
-
+package in.codeblog.ppmapi.domain;
 
 import java.util.Date;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -20,7 +17,7 @@ import com.fasterxml.jackson.annotation.JsonFormat;
  * This is the domain class that will be representing the project detail and
  * will be responsible as a data traveler object
  * 
- * @author sharma.pankaj
+ * @author nirmal.bagdia
  *
  */
 

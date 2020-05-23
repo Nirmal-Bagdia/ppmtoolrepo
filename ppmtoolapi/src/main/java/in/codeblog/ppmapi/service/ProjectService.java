@@ -1,11 +1,11 @@
-package com.example.demo.service;
+package in.codeblog.ppmapi.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.demo.domain.Project;
-import com.example.demo.exception.ProjectIdException;
-import com.example.demo.repositories.ProjectRepository;
+import in.codeblog.ppmapi.domain.Project;
+import in.codeblog.ppmapi.exception.ProjectIdException;
+import in.codeblog.ppmapi.repositories.ProjectRepository;
 
 @Service
 public class ProjectService {

@@ -1,4 +1,4 @@
-package com.example.demo;
+package in.codeblog.ppmapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,6 +8,7 @@ public class PpmtoolapiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PpmtoolapiApplication.class, args);
+		System.out.println("Spring Boot Server is running !!!!!!!!!!!!!!!!!!");
 	}
 
 }
