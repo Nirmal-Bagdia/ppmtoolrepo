@@ -1,3 +1,3 @@
 # ppmtoolrepo
-ReactJs 
-SpringBoot
+ReactJs and
+SpringBoot Project
