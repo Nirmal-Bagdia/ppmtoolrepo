@@ -1,4 +1,1 @@
-# ReactJs
-# and
-# SpringBoot
-# Application
+# ReactJs and SpringBoot Application
