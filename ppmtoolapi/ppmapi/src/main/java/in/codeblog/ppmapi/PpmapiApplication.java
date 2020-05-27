@@ -8,6 +8,7 @@ public class PpmapiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PpmapiApplication.class, args);
+		System.out.println("Server is Ready....");
 	}
 
 }

@@ -34,6 +34,7 @@ public class Backlog {
 	public Project getProject() {
 		return project;
 	}
+	
 	public List<ProjectTask> getProjectTasks() {
 		return projectTasks;
 	}
