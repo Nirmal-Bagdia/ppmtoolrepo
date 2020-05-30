@@ -1,17 +1,21 @@
 package in.codeblog.ppmapi.exception;
 
 public class ProjectIdExceptionResponse {
-	String projectIdentifier;
-	public ProjectIdExceptionResponse(String projectIdentifier)
-	{
+
+	private String projectIdentifier;
+
+	public ProjectIdExceptionResponse(String projectIdentifier) {
 		super();
-		this.projectIdentifier=projectIdentifier;
+		this.projectIdentifier = projectIdentifier;
 	}
+
 	public String getProjectIdentifier() {
 		return projectIdentifier;
 	}
+
 	public void setProjectIdentifier(String projectIdentifier) {
 		this.projectIdentifier = projectIdentifier;
 	}
+	
 	
 }
